@@ -9,8 +9,7 @@
   box-sizing: border-box;
 }
 
-@media all (max-width: 100%) {
-  
+@media all and (max-width: 100%) {
 }
 
 
@@ -172,7 +171,12 @@ button:focus,
 /* about page*/
 
 .about-me-items {
-  font: roboto;
+  font: 'Noto serif', 'sans-serif';
+  color: black; 
+}
+
+.about-me-photo {
+  background-image: inherit;
 }
 
 /* grid characteristics */
