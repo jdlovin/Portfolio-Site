@@ -25,6 +25,7 @@ main {
 
 .standard-label {
   display: flex;
+  text-align: center;
 }
 
 .profile {
@@ -39,8 +40,6 @@ main {
   margin-right: 40px;
   border-radius: 50%;
 }
-
-
 /* anchor characteristics */
 
 a {
