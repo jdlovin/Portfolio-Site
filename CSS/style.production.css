@@ -169,9 +169,13 @@ button:focus,
  padding-left: 0px;
 }
 
-.about-me-photo {
-  background-image: inherit;
+/* Contact page */
+
+.contact-body {
+  text-align: center;
 }
+
+
 
 /* grid characteristics */
 .grid {
