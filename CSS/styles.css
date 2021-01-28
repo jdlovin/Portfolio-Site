@@ -146,6 +146,10 @@ button:focus,
  padding-left: 0px;
 }
 
+.about-me-photo {
+  max-width: 90%;
+}
+
 /* Contact page */
 
 .contact-body {
