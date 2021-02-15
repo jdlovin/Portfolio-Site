@@ -83,21 +83,6 @@ button:focus,
   opacity: 0.8;
 }
 
-/* navigation items */
-
-.navigation-list, .page-body_item li {
-  list-style-type: none;
-}
-
-.navigation-list li {
-  display: inline-block;
-  margin-left: 15px
-}
-
-.navigation-list_item--active {
-  text-decoration: none;
-}
-
 /* page styling */ 
 
 .page-body {
