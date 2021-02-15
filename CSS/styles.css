@@ -9,9 +9,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 body {
   background-color: white;
   font-family: 'Noto Serif', sans-serif;
@@ -113,24 +110,11 @@ button:focus,
 }
 
 .page-header {
-  padding: 20px;
+  /* padding: 20px;
   display: flex;
-  max-width: 100%;
+  max-width: 100%; */
+  background-color: forestgreen;
   border-bottom: 2px solid black;
-}
-
-.page-header_logo {
-  height: 70px;
-  width: 200px;
-}
-
-.page-header_item {
-  flex: 0 1 200px;
-}
-
-.page-header .page-header_item:last-child {
-  flex-grow: 1;
-  text-align: right;
 }
 
 .page-footer {

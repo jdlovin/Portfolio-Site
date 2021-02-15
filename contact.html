@@ -9,27 +9,31 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
       <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/styles.css">
-      <link rel="stylesheet" type="text/css" href="css/style.production.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
       <body>
         <header class="page-header">
-          <!-- new nav bar goes here  -->
-          <img src="img/joshua-lovin-logo.png" alt="Joshua Lovin's logo" class="page-header_logo">
-          <nav class="page-header_item">
-            <ul role="menubar" class="navigation-list">
-              <li role="presentation">
-                <a href="index.html" role="menuitem" class="navigation-list_item">Home</a>
-              </li>
-              <li role="presentation">
-                <a href="about_me.html" role="menuitem" class="navigation-list_item">About me</a>
-              </li>
-              <li role="presentation">
-                <a href="contact.html" role="menuitem" class="navigation-list_item navigation-list_item--active">Contact</a>
-              <li role="presentation">
-                <a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
-              </li>
-            </ul>
+          <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: rgb(52, 83, 52)">
+            <a class="navbar-brand" href="index.html">Joshua Lovin</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_me.html">About Me</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="work.html">Work</a>
+                </li>
+              </ul>
+            </div>
           </nav>
         </header>
         <main class="contact-body">
