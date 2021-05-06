@@ -20,6 +20,11 @@ main {
 	background-color: white;
 }
 
+#work {
+	text-align: center;
+	padding: 4rem;
+}
+
 .standard-label {
 	display: flex;
 	text-align: center;
