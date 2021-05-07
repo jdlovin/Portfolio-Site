@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jdlovin7185/Portfolio-Site/issues"
   },
-  "homepage": "https://github.com/jdlovin7185/Portfolio-Site#readme"
+  "homepage": "https://github.com/jdlovin7185/Portfolio-Site#readme",
+  "dependencies": {
+    "aws-sdk": "^2.902.0",
+    "yarn": "^1.22.10"
+  }
 }
