@@ -113,7 +113,7 @@ button:focus,
 /* footer */
 
 footer {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 }
@@ -142,6 +142,16 @@ footer {
 .contact-body {
 	text-align: center;
 	padding: 5rem;
+}
+/* projects */
+
+.project-header {
+	text-align: center;
+}
+
+.project-item {
+	text-align: center;
+	border: solid black;
 }
 
 /* grid characteristics */
