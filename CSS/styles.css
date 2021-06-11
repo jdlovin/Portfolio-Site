@@ -25,6 +25,13 @@ main {
 	padding: 4rem;
 }
 
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+}
+
 .standard-label {
 	display: flex;
 	text-align: center;
