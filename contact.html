@@ -10,6 +10,24 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/styles.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <style>
+        .wrapper {
+          width: 380px;
+          margin-top: 100px;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 7px;
+          
+          box-shadow: 5px 10px #999;
+        }
+        input[type="text"], input[type="email"], input[type="tel"]{
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+        }
+      </style>
     </head>
       <body>
         <header class="page-header">
@@ -44,27 +62,51 @@
             <p><a href="mailto:jdlovin7185@gmail.com">Feel free to E-Mail me</a>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/joshua-lovin-2079646a/">Lets connect!</a></p>
             <p>Twitter: <a href="https://twitter.com/JoshuaLovin">Tweet me!</a></p>
-          
-          <!-- <form action="{{ https://2n3u2tdbl4.execute-api.us-east-1.amazonaws.com/dev/site-mail }}" method="POST">
-            <label>
-              Name
-              <input type="text" name="name" required>
-            </label>
-            <label>
-              Email
-              <input type="email" name="reply_to" required>
-            </label>
-            <label>
-              Message:
-              <textarea name="message" required></textarea>
-            </label>
-            <button type="submit">Send Message</button>
-          </form>
-          <p id="js-form-response"></p> -->
+          <div class="wrapper">
+            <h2>Lets get in touch</h2>
+            <form action="" name=userForm onsubmit="onSubmit(event)" method="post">
+              <div>
+                <label for="">Name</label>
+                <input type="text" name="Name" id="Name">
+              </div>
+              <div>
+                <label for="">E-Mail</label>
+                <input type="email" name="eMail" id="eMail">
+              </div>
+              <div>
+                <label for="">Telephone</label>
+                <input type="tel" name="telePhone" id="telePhone">
+              </div>
+              <p>
+                <input type="submit" value="Submit">
+              </p>
+            </form>
+          </div>
+          <script>
+            function onSubmit(event){
+              event.preventDefault()
+
+              let name = document.userForm.Name.value;
+              let email = document.userForm.eMail.value;
+              let telephone = document.userForm.telePhone.value;
+
+              if(name==null || name == ''){
+                alert('Name is required')
+              }
+
+              if(email == null || name == ''){
+                alert('Email is required')
+              }
+
+              if(telephone == null || telephone == ''){
+                alert('Telephone is required')
+              }
+            }
+          </script>
+         
 
 
-
-
+    
         </main>
         <footer class="page-footer">
           <p>Find me on</p>
